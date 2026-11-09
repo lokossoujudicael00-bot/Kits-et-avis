@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kit Avis & Clients</title>
+<meta name="description" content="30 réponses aux avis Google, 20 messages de relance et 36 idées de posts, prêts à copier-coller.">
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--mut:#5f6670;--card:#f5f7fa;--line:#e3e7ec;--acc:#1f5fbf;--accfg:#fff;--ok:#1a7f45;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#111418;--fg:#eceff3;--mut:#9aa3ad;--card:#1a1f26;--line:#2a313a;--acc:#6ea2f5;--accfg:#0b1320;--ok:#4cc382;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+main{max-width:680px;margin:0 auto;padding:20px 18px 40px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.brand{font-weight:700;color:var(--acc)}
+button,.btn{font:inherit;cursor:pointer}
+.lang{background:transparent;color:var(--acc);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:14px;max-width:60%}
+.lang option{color:#111;background:#fff}
+.goog-te-banner-frame,#goog-gt-tt,.goog-te-balloon-frame{display:none!important}
+body{top:0!important}
+h1{font-size:30px;line-height:1.2;margin:18px 0 10px}
+h2{font-size:21px;margin:30px 0 10px}
+p{margin:0 0 12px}
+.lead{font-size:18px;color:var(--mut)}
+.btn{display:block;width:100%;text-align:center;background:var(--acc);color:var(--accfg);text-decoration:none;border:0;border-radius:12px;padding:14px 18px;font-weight:700;margin:14px 0}
+.sec{background:transparent;color:var(--acc);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:4px 6px 4px 0;font-size:16px;text-decoration:none;display:inline-block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px}
+.card b{display:block;margin-bottom:2px}
+.price{font-size:40px;font-weight:800;margin:4px 0}
+ul{padding-left:20px;margin:0 0 12px}
+li{margin-bottom:6px}
+.ex{border-left:3px solid var(--acc);padding:6px 0 6px 12px;color:var(--mut);margin:10px 0;font-size:15px}
+.small{font-size:14px;color:var(--mut)}
+.num{font-size:22px;font-weight:800;letter-spacing:.5px;margin:6px 0}
+label{display:block;font-size:14px;color:var(--mut);margin:10px 0 3px}
+input{width:100%;padding:11px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg);font:inherit}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+#ok{display:none;color:var(--ok);font-weight:600}
+#err{display:none;color:#c0392b}
+footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<main>
+  <div class="top"><span class="brand notranslate" translate="no">Kit Avis & Clients</span><select class="lang notranslate" id="lang" translate="no" aria-label="Language"><option value="fr">Français</option><option value="en">English</option><option value="es">Español</option><option value="pt">Português</option><option value="de">Deutsch</option><option value="it">Italiano</option><option value="nl">Nederlands</option><option value="da">Dansk</option><option value="sv">Svenska</option><option value="no">Norsk</option><option value="fi">Suomi</option><option value="pl">Polski</option><option value="cs">Čeština</option><option value="hu">Magyar</option><option value="ro">Română</option><option value="el">Ελληνικά</option><option value="tr">Türkçe</option><option value="ru">Русский</option><option value="uk">Українська</option><option value="ar">العربية</option><option value="hi">हिन्दी</option><option value="bn">বাংলা</option><option value="ur">اردو</option><option value="fa">فارسی</option><option value="th">ไทย</option><option value="vi">Tiếng Việt</option><option value="id">Bahasa Indonesia</option><option value="ms">Bahasa Melayu</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="zh-CN">中文</option><option value="sw">Kiswahili</option></select></div>
+  <div id="gt" style="display:none"></div>
+
+  <h1 data-k="h1"></h1>
+  <p class="lead" data-k="lead"></p>
+  <a class="btn" href="#commande" data-k="cta"></a>
+
+  <h2 data-k="h_in"></h2>
+  <div class="card"><b data-k="in1t"></b><span data-k="in1d"></span></div>
+  <div class="card"><b data-k="in2t"></b><span data-k="in2d"></span></div>
+  <div class="card"><b data-k="in3t"></b><span data-k="in3d"></span></div>
+
+  <h2 data-k="h_ex"></h2>
+  <div class="ex" data-k="ex1"></div>
+  <div class="ex" data-k="ex2"></div>
+
+  <h2 data-k="h_for"></h2>
+  <ul id="forList"></ul>
+
+  <h2 id="commande" data-k="h_how"></h2>
+  <div class="card"><div class="price" data-k="price"></div><span data-k="price_d"></span></div>
+
+  <div class="card">
+    <b data-k="s1t"></b>
+    <p data-k="s1d"></p>
+    <div class="num notranslate" translate="no" id="momo">+229 01 42 65 86 98</div>
+    <p class="small"><span data-k="benef"></span> <span class="notranslate" translate="no">LOKOSSOU Judicaël Rufin</span></p>
+    <button class="sec" id="cpN" type="button" data-k="btnCopy"></button>
+    <a class="sec" href="https://www.taptapsend.com" target="_blank" rel="noopener" data-k="btnTap"></a>
+  </div>
+
+  <div class="card">
+    <b data-k="s2t"></b>
+    <p class="small" data-k="s2d"></p>
+    <form id="f" autocomplete="on">
+      <label for="nom" data-k="lNom"></label><input id="nom" name="nom" required maxlength="100">
+      <label for="email" data-k="lEmail"></label><input id="email" name="email" type="email" required maxlength="120">
+      <label for="pays" data-k="lPays"></label><input id="pays" name="pays" required maxlength="60">
+      <div class="hp"><label>Site<input id="site" name="site" tabindex="-1" autocomplete="off"></label></div>
+      <button class="btn" type="submit" id="send" data-k="btnSend"></button>
+    </form>
+    <p id="ok" data-k="okMsg"></p>
+    <p id="err" data-k="errMsg"></p>
+  </div>
+
+  <div class="card"><b data-k="s3t"></b><span data-k="s3d"></span></div>
+  <p class="small"><span data-k="alt"></span> <span id="mail" class="notranslate" translate="no"></span></p>
+
+  <h2 data-k="h_faq"></h2>
+  <div class="card"><b data-k="q1"></b><span data-k="a1"></span></div>
+  <div class="card"><b data-k="q2"></b><span data-k="a2"></span></div>
+  <div class="card"><b data-k="q3"></b><span data-k="a3"></span></div>
+
+  <footer class="small"><span class="notranslate" translate="no">Kit Avis & Clients · BP 443, Bénin · <span id="mailF"></span></span></footer>
+</main>
+
+<script>
+var EMAIL = "rufinjudicael08@gmail.com";
+var WEBAPP_URL = "https://script.google.com/macros/s/AKfycby4C3Kky_CEe8p4_1kh7nxNqfixpvAzUALNOwiIfKcQb9q9EB8gxDF3NAGyjhPp7Kme/exec";
+
+var T = {
+  fr: {
+    h1: "Répondez aux avis et relancez vos clients sans y passer vos soirées",
+    lead: "Un kit prêt à copier-coller pour restaurants, salons de coiffure et garages : réponses aux avis Google, messages de relance et idées de posts.",
+    cta: "Commander le kit : 29 €",
+    h_in: "Ce que contient le kit",
+    in1t: "30 réponses aux avis Google. ", in1d: "Avis 5 étoiles, 4, 3, avis négatifs et cas particuliers, avec des [crochets] à remplacer.",
+    in2t: "20 messages de relance WhatsApp/SMS. ", in2d: "Remercier après la visite, réveiller un client inactif, fidéliser, remplir les heures creuses.",
+    in3t: "36 idées de posts sur 3 mois. ", in3d: "3 publications par semaine pendant 12 semaines, avec légende et type de contenu.",
+    h_ex: "Un exemple du kit",
+    ex1: "Avis négatif, attente trop longue : « Bonjour [Prénom], nous sommes sincèrement désolés pour cette attente. Contactez-moi au [téléphone] : je souhaite faire un geste pour votre prochaine visite. »",
+    ex2: "Relance d’un client inactif : « Bonjour [Prénom], cela fait un moment que nous ne vous avons pas vu chez [Nom du commerce]. On vous garde un créneau ? Répondez simplement « oui ». »",
+    h_for: "Pour qui ?",
+    forL: ["Restaurants, cafés et traiteurs", "Salons de coiffure, de beauté et barbiers", "Garages et ateliers", "Tout commerce de proximité qui reçoit des avis en ligne"],
+    h_how: "Comment commander",
+    price: "29 €", price_d: "Paiement unique. Le kit est un fichier PDF que vous gardez et réutilisez sans limite, dans la langue de votre pays.",
+    s1t: "1. Envoyez 29 € avec TapTap Send",
+    s1d: "Ouvrez l’application TapTap Send, choisissez le Bénin, puis Mobile Money, et envoyez l’équivalent de 29 € à ce numéro :",
+    benef: "Nom du bénéficiaire :", btnCopy: "Copier le numéro", btnTap: "Ouvrir TapTap Send",
+    s2t: "2. Confirmez votre commande",
+    s2d: "Après votre envoi, remplissez ce formulaire pour que nous sachions où envoyer le kit.",
+    lNom: "Votre nom", lEmail: "Votre e-mail", lPays: "Votre pays", btnSend: "J’ai payé : envoyer le kit",
+    okMsg: "Merci ! Votre commande est enregistrée. Dès que votre paiement est vérifié, le kit arrive par e-mail.",
+    errMsg: "Une erreur est survenue. Écrivez-nous par e-mail, nous vous répondrons.",
+    s3t: "3. Recevez le kit. ", s3d: "Après vérification de votre paiement, le kit est envoyé automatiquement par e-mail, dans la langue de votre pays.",
+    alt: "TapTap Send n’est pas disponible dans votre pays ? Écrivez-nous :",
+    h_faq: "Questions fréquentes",
+    q1: "Le kit existe-t-il dans ma langue ? ", a1: "Oui : le kit est traduit automatiquement dans la langue de votre pays. Le français et l’anglais sont les versions d’origine.",
+    q2: "Dois-je savoir écrire ou utiliser l’IA ? ", a2: "Non. Vous copiez le modèle, remplacez les crochets et publiez.",
+    q3: "Y a-t-il une garantie de résultat ? ", a3: "Non : ce sont des modèles de messages. Les résultats dépendent de votre commerce et de la façon dont vous les utilisez."
+  },
+  en: {
+    h1: "Reply to reviews and win back customers without losing your evenings",
+    lead: "A copy-and-paste kit for restaurants, hair salons and garages: Google review replies, follow-up messages and post ideas.",
+    cta: "Get the kit: €29",
+    h_in: "What’s inside",
+    in1t: "30 Google review replies. ", in1d: "5-, 4- and 3-star reviews, negative reviews and special cases, with [brackets] to fill in.",
+    in2t: "20 WhatsApp/SMS follow-up messages. ", in2d: "Thank customers after a visit, reactivate inactive ones, build loyalty, fill quiet hours.",
+    in3t: "36 post ideas over 3 months. ", in3d: "3 posts a week for 12 weeks, with captions and content type.",
+    h_ex: "A sample from the kit",
+    ex1: "Negative review, long wait: « Hello [Name], we are truly sorry for the wait. Call me on [phone]: I would like to make it up to you on your next visit. »",
+    ex2: "Inactive customer: « Hello [Name], it has been a while since we saw you at [Business name]. Shall we keep a slot for you? Just reply “yes”. »",
+    h_for: "Who is it for?",
+    forL: ["Restaurants, cafés and caterers", "Hair and beauty salons, barbers", "Garages and workshops", "Any local business that receives online reviews"],
+    h_how: "How to order",
+    price: "€29", price_d: "One-time payment. The kit is a PDF file you keep and reuse as often as you like, in the language of your country.",
+    s1t: "1. Send €29 with TapTap Send",
+    s1d: "Open the TapTap Send app, choose Benin, then Mobile Money, and send the equivalent of €29 to this number:",
+    benef: "Recipient name:", btnCopy: "Copy number", btnTap: "Open TapTap Send",
+    s2t: "2. Confirm your order",
+    s2d: "After sending, fill in this form so we know where to send the kit.",
+    lNom: "Your name", lEmail: "Your e-mail", lPays: "Your country", btnSend: "I have paid: send me the kit",
+    okMsg: "Thank you! Your order is recorded. As soon as your payment is verified, the kit arrives by e-mail.",
+    errMsg: "Something went wrong. Please e-mail us and we will reply.",
+    s3t: "3. Receive the kit. ", s3d: "Once your payment is verified, the kit is sent automatically by e-mail, in the language of your country.",
+    alt: "TapTap Send not available in your country? Write to us:",
+    h_faq: "FAQ",
+    q1: "Is the kit available in my language? ", a1: "Yes: the kit is automatically translated into the language of your country. French and English are the original versions.",
+    q2: "Do I need writing or AI skills? ", a2: "No. Copy the template, fill in the brackets and post.",
+    q3: "Is a result guaranteed? ", a3: "No: these are message templates. Results depend on your business and how you use them."
+  }
+};
+
+var sel = (navigator.language || "fr").split("-")[0].toLowerCase();
+if (sel === "zh") sel = "zh-CN";
+try { var st = localStorage.getItem("kit-lang"); if (st) sel = st; } catch (e) {}
+var cur = (sel === "fr") ? "fr" : "en";
+
+function el(id) { return document.getElementById(id); }
+function apply() {
+  var t = T[cur];
+  document.documentElement.lang = cur;
+  document.querySelectorAll("[data-k]").forEach(function (e) { e.textContent = t[e.getAttribute("data-k")]; });
+  var f = el("forList"); f.innerHTML = "";
+  t.forL.forEach(function (x) { var l = document.createElement("li"); l.textContent = x; f.appendChild(l); });
+  el("mail").textContent = EMAIL; el("mailF").textContent = EMAIL;
+}
+function setCookie(code) {
+  if (code === "fr" || code === "en") document.cookie = "googtrans=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+  else document.cookie = "googtrans=/en/" + code + ";path=/";
+}
+function loadWidget() {
+  window.googleTranslateElementInit = function () { new google.translate.TranslateElement({ pageLanguage: "en", autoDisplay: false }, "gt"); };
+  var sc = document.createElement("script");
+  sc.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+  document.head.appendChild(sc);
+}
+var has = Array.prototype.some.call(el("lang").options, function (o) { return o.value === sel; });
+if (!has) { var op = document.createElement("option"); op.value = sel; op.textContent = sel; el("lang").appendChild(op); }
+el("lang").value = sel;
+setCookie(sel);
+if (sel !== "fr" && sel !== "en") loadWidget();
+el("lang").addEventListener("change", function () {
+  try { localStorage.setItem("kit-lang", el("lang").value); } catch (e) {}
+  setCookie(el("lang").value);
+  location.reload();
+});
+
+function fb(txt) { var a = document.createElement("textarea"); a.value = txt; document.body.appendChild(a); a.select(); try { document.execCommand("copy"); } catch (e) {} document.body.removeChild(a); }
+el("cpN").addEventListener("click", function () {
+  var b = this, old = b.textContent, n = "+229 01 42 65 86 98";
+  var ok = function () { b.textContent = "✓"; setTimeout(function () { b.textContent = old; }, 1200); };
+  try { navigator.clipboard.writeText(n).then(ok, function () { fb(n); ok(); }); } catch (e) { fb(n); ok(); }
+});
+
+el("f").addEventListener("submit", function (ev) {
+  ev.preventDefault();
+  el("ok").style.display = "none"; el("err").style.display = "none";
+  if (el("site").value) return;
+  if (!WEBAPP_URL) { el("err").style.display = "block"; return; }
+  var btn = el("send"); btn.disabled = true;
+  var body = JSON.stringify({ nom: el("nom").value.trim(), email: el("email").value.trim(), pays: el("pays").value.trim() });
+  fetch(WEBAPP_URL, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: body })
+    .then(function () { el("ok").style.display = "block"; el("f").style.display = "none"; })
+    .catch(function () { el("err").style.display = "block"; btn.disabled = false; });
+});
+apply();
+</script>
+</body>
+</html>
